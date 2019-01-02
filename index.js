@@ -95,7 +95,6 @@ data.forEach(element => {
     }
 });
 labels[labels.length-1] = "other";
-//console.log(labels);
 
 var storageAverage = storageRunTimes.reduce((a,b) => a+b, 0)/storageRunTimes.length;
 var prodAverage = prodRunTimes.reduce((a,b) => a+b, 0)/prodRunTimes.length;
@@ -184,7 +183,7 @@ var boxData = [
     {
         x: allRunTimes,
         type: "box",
-        name: "All Run Times",
+        name: "All",
     }
 ];
 
@@ -199,4 +198,4 @@ var barData = [
     }
 ];
 
-Plotly.newPlot("barGraph", barData, {title: "Average Uptime per"});
+Plotly.newPlot("barGraph", barData, {title: "Average Uptime Per Area"});
