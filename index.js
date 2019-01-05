@@ -119,7 +119,7 @@ var pieData = [{
     type: "pie"
 }];
 
-Plotly.newPlot("pieChart", pieData, {title: "Pie Chart Of The Areas"}); // height and width can be added to all the graphs
+Plotly.newPlot("pieChart", pieData, {title: "Pie Chart Of The Areas"});
 
 
 var boxData = [
@@ -205,10 +205,10 @@ Plotly.newPlot("barGraph", barData, {title: "Average Uptime Per Area"});
 
 
 var table = new Tabulator("#example-table", {
-    height:300, // set height of table (in CSS or here), this enables the Virtual DOM and improves render speed dramatically (can be any valid css height value)
-    data:data, //assign data to table
-    layout:"fitColumns", //fit columns to width of table (optional)
-    columns:[ //Define Table Columns
+    height:300,
+    data:data,
+    layout:"fitColumns",
+    columns:[
         {title:"Hostname", field:"hostname"},
         {title:"Area", field:"area"},
         {title:"Version", field:"version"},
