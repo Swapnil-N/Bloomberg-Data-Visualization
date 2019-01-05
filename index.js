@@ -117,7 +117,7 @@ var pieData = [{
     type: "pie"
 }];
 
-Plotly.newPlot("pieChart", pieData, {title: "Pie Chart Of The Areas", height: 500, width: 1000}); // height and width can be added to all the graphs
+Plotly.newPlot("pieChart", pieData, {title: "Pie Chart Of The Areas"}); // height and width can be added to all the graphs
 
 
 var boxData = [
@@ -188,7 +188,7 @@ var boxData = [
     }
 ];
 
-Plotly.newPlot("boxChart", boxData, {title: "Box Plot of All runtimes"});
+Plotly.newPlot("boxChart", boxData, {title: "Box Plot of All Runtimes"});
 
 
 var barData = [
