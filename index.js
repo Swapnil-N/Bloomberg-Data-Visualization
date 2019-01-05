@@ -34,8 +34,10 @@ data.forEach(element => {
 
     var upTimeNum = element.uptime;
 
-    if (upTimeNum === "")
+    if (upTimeNum === ""){
         upTimeNum = 0;
+        element.uptime = "0";
+    }
     else 
         upTimeNum = parseInt(element.uptime); 
 
