@@ -204,7 +204,7 @@ var barData = [
 Plotly.newPlot("barGraph", barData, {title: "Average Uptime Per Area"});
 
 
-var table = new Tabulator("#example-table", {
+var table = new Tabulator("#Data-table", {
     height:300,
     data:data,
     layout:"fitColumns",
